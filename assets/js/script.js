@@ -181,3 +181,78 @@
 
 
 
+// class Car {
+//     constructor(name, speed) {
+//         this.name = name;
+//         this.speed = speed;
+//     }
+
+//     showCarData(color) {
+//         return `${this.name} ${this.speed} ${color}`;
+//     }
+// }
+
+// let car1 = new Car("Chevrolet", 400);
+
+// console.log(car1.showCarData("yellow"));
+
+// class Animal {
+//     constructor(name, sound) {
+//         this.name = name;
+//         this.sound = sound;
+//     }
+
+//     static eat() {
+//         console.log("Animal eating");
+//     }
+// }
+
+// class Cat extends Animal {
+//     constructor(name, sound, color) {
+//         super(name, sound);
+//         this.color = color;
+//     }
+// }
+
+// let animal1 = new Animal("Cat", "Ham Ham");
+
+// let cat1 = new Cat("Luis", "Meow", "Black");
+
+// console.log(cat1.color);
+
+// cat1.name = "Luis";
+
+// console.log(`${cat1.name} ${cat1.sound} ${cat1.color}`);
+
+// console.log(animal1.name);
+
+// Animal.eat();
+
+
+
+
+
+
+// Prototype
+
+// let nums = [1, 2, 3, 4, 5, 6, 7];
+
+// Array.prototype.test = function () {
+//     console.log("Hello World!");
+// }
+
+// nums.test();
+
+// String.prototype.p135 = "Ugurlar";
+
+// String.prototype.getStr = function (str) {
+//     console.log(str);
+// }
+
+String.prototype.arrow = () => {
+    console.log("Arrow");
+}
+
+let name = "Shaiq";
+
+name.arrow();
